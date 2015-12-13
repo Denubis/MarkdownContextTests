@@ -1,0 +1,371 @@
+
+mtx-context     | run 1: luatex --fmt="/opt/context/tex/texmf-cache/luatex-cache/context/5fe67e0bfe781ce0dde776fb1556f32e/formats/luatex/cont-en" --interaction="batchmode" --jobname="unittest" --lua="/opt/context/tex/texmf-cache/luatex-cache/context/5fe67e0bfe781ce0dde776fb1556f32e/formats/luatex/cont-en.lui" --no-parse-first-line --c:batchmode --c:currentrun=1 --c:fulljobname="./unittest.tex" --c:input="./unittest.tex" --c:kindofrun=1 --c:maxnofruns=9 --c:purgeall --c:quiet "cont-yes.mkiv"
+This is LuaTeX, Version beta-0.85.0 (TeX Live 2016/dev) (rev 5550) 
+ system commands enabled.
+
+system          > callbacks > not registering frozen 'find_format_file'
+open source     > 1 > 1 > /opt/context/tex/texmf-context/tex/context/base/cont-yes.mkiv
+system          > 'cont-new.mkiv' loaded
+open source     > 2 > 2 > /opt/context/tex/texmf-context/tex/context/base/cont-new.mkiv
+close source    > 2 > 2 > /opt/context/tex/texmf-context/tex/context/base/cont-new.mkiv
+system          > files > jobname 'unittest', input './unittest', result 'unittest'
+fonts           > latin modern fonts are not preloaded
+languages       > language 'en' is active
+open source     > 2 > 3 > /home/brian/MarkdownContextTests/unittest.tex
+resolvers       > modules > 'oldbibtex' is loaded
+open source     > 3 > 4 > /opt/context/tex/texmf-context/tex/context/base/m-oldbibtex.mkiv
+open source     > 4 > 5 > /opt/context/tex/texmf-context/tex/context/base/bibl-bib.mkiv
+loading         > ConTeXt Bibliography Support / Experimental BibTeX
+resolvers       > lua > loading file '/opt/context/tex/texmf-context/tex/context/base/bibl-bib.lua' succeeded
+publications    > loading formatting style from 'bxml-apa'
+open source     > 5 > 6 > /opt/context/tex/texmf-context/tex/context/base/bxml-apa.mkiv
+close source    > 5 > 6 > /opt/context/tex/texmf-context/tex/context/base/bxml-apa.mkiv
+close source    > 4 > 6 > /opt/context/tex/texmf-context/tex/context/base/bibl-bib.mkiv
+open source     > 4 > 7 > /opt/context/tex/texmf-context/tex/context/base/bibl-tra.mkiv
+loading         > ConTeXt Bibliography Support / BibTeX
+resolvers       > lua > loading file '/opt/context/tex/texmf-context/tex/context/base/bibl-tra.lua' succeeded
+publications    > loading formatting style from 'bibl-apa'
+open source     > 5 > 8 > /opt/context/tex/texmf-context/tex/context/bib/bibl-apa.tex
+close source    > 5 > 8 > /opt/context/tex/texmf-context/tex/context/bib/bibl-apa.tex
+close source    > 4 > 8 > /opt/context/tex/texmf-context/tex/context/base/bibl-tra.mkiv
+close source    > 3 > 8 > /opt/context/tex/texmf-context/tex/context/base/m-oldbibtex.mkiv
+publications    > wrote a new auxiliary file 'unittest.aux'
+This is BibTeX, Version 0.99d (TeX Live 2015)
+The top-level auxiliary file: unittest.aux
+The style file: cont-au.bst
+Database file #1: citations.bib
+publications    > loading formatting style from 'bibl-apa'
+open source     > 3 > 9 > /opt/context/tex/texmf-context/tex/context/bib/bibl-apa.tex
+close source    > 3 > 9 > /opt/context/tex/texmf-context/tex/context/bib/bibl-apa.tex
+open source     > 3 > 10 > env_unittest.tex
+colors          > 'rgb' color space is supported
+colors          > 'cmyk' color space is supported
+resolvers       > modules > 'database' is loaded
+open source     > 4 > 11 > /opt/context/tex/texmf-context/tex/context/base/m-database.mkiv
+resolvers       > lua > loading file '/opt/context/tex/texmf-context/tex/context/base/m-database.lua' succeeded
+close source    > 4 > 11 > /opt/context/tex/texmf-context/tex/context/base/m-database.mkiv
+fonts           > preloading latin modern fonts (third stage)
+fonts           > 'fallback modern-designsize rm 11pt' is loaded
+system          > jobfiles > using path: /home/ubuntu/ConTeXt/TRAP/
+close source    > 3 > 11 > env_unittest.tex
+structure       > sectioning > chapter @ level 2 : 0.1 -> Sample Academic Workflow
+structure       > sectioning > subject @ level 3 : 0.1.0 -> Abstract
+structure       > sectioning > subject @ level 3 : 0.1.0 -> Keywords
+structure       > sectioning > section @ level 3 : 0.1.1 -> Section 1
+open source     > 3 > 12 > /opt/context/tex/texmf-context/tex/context/sample/knuth.tex
+close source    > 3 > 12 > /opt/context/tex/texmf-context/tex/context/sample/knuth.tex
+structure       > sectioning > subsection @ level 4 : 0.1.1.1 -> Subsection 1.1
+references      > unknown reference '[SAW][fig:01]'
+references      > unknown reference '[SAW][tab:01]'
+structure       > sectioning > subsection @ level 4 : 0.1.1.2 -> Subsection 1.2
+structure       > sectioning > section @ level 3 : 0.1.2 -> Section 2
+open source     > 3 > 13 > /opt/context/tex/texmf-context/tex/context/sample/knuth.tex
+backend         > xmp > using file '/opt/context/tex/texmf-context/tex/context/base/lpdf-pdx.xml'
+pages           > flushing realpage 1, userpage 1
+close source    > 3 > 13 > /opt/context/tex/texmf-context/tex/context/sample/knuth.tex
+structure       > sectioning > subsection @ level 4 : 0.1.2.1 -> Subsection 2.1
+structure       > sectioning > section @ level 3 : 0.1.3 -> Images
+floatblocks     > '1' placed
+open source     > 3 > 14 > /opt/context/tex/texmf-context/tex/context/sample/knuth.tex
+close source    > 3 > 14 > /opt/context/tex/texmf-context/tex/context/sample/knuth.tex
+floatblocks     > 1 saved
+open source     > 3 > 15 > /opt/context/tex/texmf-context/tex/context/sample/knuth.tex
+pages           > flushing realpage 2, userpage 2
+floatblocks     > 1 moved
+floatblocks     > '2' moved
+close source    > 3 > 15 > /opt/context/tex/texmf-context/tex/context/sample/knuth.tex
+structure       > sectioning > section @ level 3 : 0.1.4 -> Tables
+floatblocks     > '3' placed
+open source     > 3 > 16 > /opt/context/tex/texmf-context/tex/context/sample/knuth.tex
+close source    > 3 > 16 > /opt/context/tex/texmf-context/tex/context/sample/knuth.tex
+pages           > flushing realpage 3, userpage 3
+floatblocks     > '4' placed
+open source     > 3 > 17 > /opt/context/tex/texmf-context/tex/context/sample/knuth.tex
+close source    > 3 > 17 > /opt/context/tex/texmf-context/tex/context/sample/knuth.tex
+structure       > sectioning > section @ level 3 : 0.1.5 -> No heads
+floatblocks     > '5' placed
+open source     > 3 > 18 > /opt/context/tex/texmf-context/tex/context/sample/knuth.tex
+close source    > 3 > 18 > /opt/context/tex/texmf-context/tex/context/sample/knuth.tex
+structure       > sectioning > section @ level 3 : 0.1.6 -> Citations
+publications    > loading database from 'unittest.bbl'
+open source     > 3 > 19 > unittest.bbl
+close source    > 3 > 19 > unittest.bbl
+references      > unknown reference '[SAW][1:ballsun2010asking]'
+structure       > sectioning > section @ level 3 : 0.1.7 -> Works Cited
+publications    > placing all entries, use 'text' to be more selective
+pages           > flushing realpage 4, userpage 4
+pages           > flushing realpage 5, userpage 5
+pages           > flushing realpage 6, userpage 6
+close source    > 2 > 19 > /home/brian/MarkdownContextTests/unittest.tex
+close source    > 1 > 19 > /opt/context/tex/texmf-context/tex/context/base/cont-yes.mkiv
+
+mkiv lua stats  > scheme handling time: 0.000 seconds, 1 processed, threshold 86400 seconds, loaded: https:1, reused: none
+mkiv lua stats  > used config file: selfautoparent:/texmf/web2c/texmfcnf.lua
+mkiv lua stats  > used cache path: /opt/context/tex/texmf-cache/luatex-cache/context/5fe67e0bfe781ce0dde776fb1556f32e
+mkiv lua stats  > resource resolver: loadtime 0.008 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 29 found files, scanned paths: <none>
+mkiv lua stats  > stored bytecode data: 382 modules (0.237 sec), 78 tables (0.007 sec), 460 chunks (0.244 sec)
+mkiv lua stats  > traced context: maxstack: 1156, freed: 4, unreachable: 1152
+mkiv lua stats  > cleaned up reserved nodes: 47 nodes, 446 lists of 445
+mkiv lua stats  > node memory usage: 28 hlist, 12 vlist, 2 rule, 2 disc, 29 glue, 2 kern, 6 penalty, 28 glyph, 888 attribute, 90 glue_spec, 189 attribute_list, 2 temp, 5 dir, 2 local_par, 3 late_lua
+mkiv lua stats  > node list callback tasks: 6 unique task lists, 5 instances (re)created, 1393 calls
+mkiv lua stats  > h-node processing time: 0.041 seconds including kernel
+mkiv lua stats  > used backend: pdf (backend for directly generating pdf output)
+mkiv lua stats  > jobdata time: 0.004 seconds saving, 0.000 seconds loading
+mkiv lua stats  > callbacks: 3738 direct, 4804 indirect, 8542 total
+mkiv lua stats  > loaded tex modules: 2 requested, all found (*-database *-oldbibtex)
+mkiv lua stats  > loaded patterns: en::2, load time: 0.000
+mkiv lua stats  > interactive elements: 1 references, 19 destinations
+mkiv lua stats  > result saved in file: unittest.pdf, compresslevel 3, objectcompresslevel 3
+mkiv lua stats  > loaded fonts: 5 files: latinmodern-math.otf, lmmono10-regular.otf, lmroman10-bold.otf, lmroman10-italic.otf, lmroman10-regular.otf
+mkiv lua stats  > font engine: otf 3.006, afm 1.500, tfm 1.000, 17 instances, 10 shared in backend, 1 common vectors, 9 common hashes, load time 0.314 seconds 
+mkiv lua stats  > graphics processing time: 0.002 seconds including tex, 2 processed images, 1 unique asked, 1 bad names
+mkiv lua stats  > pdf annotations: 1 links (1 unique), 0 special
+mkiv lua stats  > cross referencing: 8 identified, 3 unknown
+mkiv lua stats  > used platform: linux-64, type: unix, binary subtree: texmf-linux-64
+mkiv lua stats  > luatex banner: this is luatex, version beta-0.85.0 (tex live 2016/dev) (rev 5550)
+mkiv lua stats  > control sequences: 48566 of 65536 + 100000
+mkiv lua stats  > lua properties: engine: lua, used memory: 75 MB (ctx: 74 MB), hash type: lua, hash chars: min(64,40), symbol mask: utf (τεχ)
+mkiv lua stats  > runtime: 1.009 seconds, 6 processed pages, 6 shipped pages, 5.946 pages/second
+
+mtx-context     | run 2: luatex --fmt="/opt/context/tex/texmf-cache/luatex-cache/context/5fe67e0bfe781ce0dde776fb1556f32e/formats/luatex/cont-en" --interaction="batchmode" --jobname="unittest" --lua="/opt/context/tex/texmf-cache/luatex-cache/context/5fe67e0bfe781ce0dde776fb1556f32e/formats/luatex/cont-en.lui" --no-parse-first-line --c:batchmode --c:currentrun=2 --c:fulljobname="./unittest.tex" --c:input="./unittest.tex" --c:kindofrun=2 --c:maxnofruns=9 --c:purgeall --c:quiet "cont-yes.mkiv"
+This is LuaTeX, Version beta-0.85.0 (TeX Live 2016/dev) (rev 5550) 
+ system commands enabled.
+
+system          > callbacks > not registering frozen 'find_format_file'
+open source     > 1 > 1 > /opt/context/tex/texmf-context/tex/context/base/cont-yes.mkiv
+system          > 'cont-new.mkiv' loaded
+open source     > 2 > 2 > /opt/context/tex/texmf-context/tex/context/base/cont-new.mkiv
+close source    > 2 > 2 > /opt/context/tex/texmf-context/tex/context/base/cont-new.mkiv
+system          > files > jobname 'unittest', input './unittest', result 'unittest'
+fonts           > latin modern fonts are not preloaded
+languages       > language 'en' is active
+open source     > 2 > 3 > /home/brian/MarkdownContextTests/unittest.tex
+resolvers       > modules > 'oldbibtex' is loaded
+open source     > 3 > 4 > /opt/context/tex/texmf-context/tex/context/base/m-oldbibtex.mkiv
+open source     > 4 > 5 > /opt/context/tex/texmf-context/tex/context/base/bibl-bib.mkiv
+loading         > ConTeXt Bibliography Support / Experimental BibTeX
+resolvers       > lua > loading file '/opt/context/tex/texmf-context/tex/context/base/bibl-bib.lua' succeeded
+publications    > loading formatting style from 'bxml-apa'
+open source     > 5 > 6 > /opt/context/tex/texmf-context/tex/context/base/bxml-apa.mkiv
+close source    > 5 > 6 > /opt/context/tex/texmf-context/tex/context/base/bxml-apa.mkiv
+close source    > 4 > 6 > /opt/context/tex/texmf-context/tex/context/base/bibl-bib.mkiv
+open source     > 4 > 7 > /opt/context/tex/texmf-context/tex/context/base/bibl-tra.mkiv
+loading         > ConTeXt Bibliography Support / BibTeX
+resolvers       > lua > loading file '/opt/context/tex/texmf-context/tex/context/base/bibl-tra.lua' succeeded
+publications    > loading formatting style from 'bibl-apa'
+open source     > 5 > 8 > /opt/context/tex/texmf-context/tex/context/bib/bibl-apa.tex
+close source    > 5 > 8 > /opt/context/tex/texmf-context/tex/context/bib/bibl-apa.tex
+close source    > 4 > 8 > /opt/context/tex/texmf-context/tex/context/base/bibl-tra.mkiv
+close source    > 3 > 8 > /opt/context/tex/texmf-context/tex/context/base/m-oldbibtex.mkiv
+publications    > loading formatting style from 'bibl-apa'
+open source     > 3 > 9 > /opt/context/tex/texmf-context/tex/context/bib/bibl-apa.tex
+close source    > 3 > 9 > /opt/context/tex/texmf-context/tex/context/bib/bibl-apa.tex
+open source     > 3 > 10 > env_unittest.tex
+colors          > 'rgb' color space is supported
+colors          > 'cmyk' color space is supported
+resolvers       > modules > 'database' is loaded
+open source     > 4 > 11 > /opt/context/tex/texmf-context/tex/context/base/m-database.mkiv
+resolvers       > lua > loading file '/opt/context/tex/texmf-context/tex/context/base/m-database.lua' succeeded
+close source    > 4 > 11 > /opt/context/tex/texmf-context/tex/context/base/m-database.mkiv
+fonts           > preloading latin modern fonts (third stage)
+fonts           > 'fallback modern-designsize rm 11pt' is loaded
+system          > jobfiles > using path: /home/ubuntu/ConTeXt/TRAP/
+close source    > 3 > 11 > env_unittest.tex
+structure       > sectioning > chapter @ level 2 : 0.1 -> Sample Academic Workflow
+structure       > sectioning > subject @ level 3 : 0.1.0 -> Abstract
+structure       > sectioning > subject @ level 3 : 0.1.0 -> Keywords
+structure       > sectioning > section @ level 3 : 0.1.1 -> Section 1
+open source     > 3 > 12 > /opt/context/tex/texmf-context/tex/context/sample/knuth.tex
+close source    > 3 > 12 > /opt/context/tex/texmf-context/tex/context/sample/knuth.tex
+structure       > sectioning > subsection @ level 4 : 0.1.1.1 -> Subsection 1.1
+structure       > sectioning > subsection @ level 4 : 0.1.1.2 -> Subsection 1.2
+structure       > sectioning > section @ level 3 : 0.1.2 -> Section 2
+open source     > 3 > 13 > /opt/context/tex/texmf-context/tex/context/sample/knuth.tex
+backend         > xmp > using file '/opt/context/tex/texmf-context/tex/context/base/lpdf-pdx.xml'
+pages           > flushing realpage 1, userpage 1
+close source    > 3 > 13 > /opt/context/tex/texmf-context/tex/context/sample/knuth.tex
+structure       > sectioning > subsection @ level 4 : 0.1.2.1 -> Subsection 2.1
+structure       > sectioning > section @ level 3 : 0.1.3 -> Images
+floatblocks     > '1' placed
+open source     > 3 > 14 > /opt/context/tex/texmf-context/tex/context/sample/knuth.tex
+close source    > 3 > 14 > /opt/context/tex/texmf-context/tex/context/sample/knuth.tex
+floatblocks     > 1 saved
+open source     > 3 > 15 > /opt/context/tex/texmf-context/tex/context/sample/knuth.tex
+pages           > flushing realpage 2, userpage 2
+floatblocks     > 1 moved
+floatblocks     > '2' moved
+close source    > 3 > 15 > /opt/context/tex/texmf-context/tex/context/sample/knuth.tex
+structure       > sectioning > section @ level 3 : 0.1.4 -> Tables
+floatblocks     > '3' placed
+open source     > 3 > 16 > /opt/context/tex/texmf-context/tex/context/sample/knuth.tex
+close source    > 3 > 16 > /opt/context/tex/texmf-context/tex/context/sample/knuth.tex
+pages           > flushing realpage 3, userpage 3
+floatblocks     > '4' placed
+open source     > 3 > 17 > /opt/context/tex/texmf-context/tex/context/sample/knuth.tex
+close source    > 3 > 17 > /opt/context/tex/texmf-context/tex/context/sample/knuth.tex
+structure       > sectioning > section @ level 3 : 0.1.5 -> No heads
+floatblocks     > '5' placed
+open source     > 3 > 18 > /opt/context/tex/texmf-context/tex/context/sample/knuth.tex
+close source    > 3 > 18 > /opt/context/tex/texmf-context/tex/context/sample/knuth.tex
+structure       > sectioning > section @ level 3 : 0.1.6 -> Citations
+publications    > loading database from 'unittest.bbl'
+open source     > 3 > 19 > unittest.bbl
+close source    > 3 > 19 > unittest.bbl
+structure       > sectioning > section @ level 3 : 0.1.7 -> Works Cited
+publications    > placing all entries, use 'text' to be more selective
+pages           > flushing realpage 4, userpage 4
+pages           > flushing realpage 5, userpage 5
+pages           > flushing realpage 6, userpage 6
+close source    > 2 > 19 > /home/brian/MarkdownContextTests/unittest.tex
+close source    > 1 > 19 > /opt/context/tex/texmf-context/tex/context/base/cont-yes.mkiv
+
+mkiv lua stats  > scheme handling time: 0.000 seconds, 1 processed, threshold 86400 seconds, loaded: https:1, reused: none
+mkiv lua stats  > used config file: selfautoparent:/texmf/web2c/texmfcnf.lua
+mkiv lua stats  > used cache path: /opt/context/tex/texmf-cache/luatex-cache/context/5fe67e0bfe781ce0dde776fb1556f32e
+mkiv lua stats  > resource resolver: loadtime 0.010 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 27 found files, scanned paths: <none>
+mkiv lua stats  > stored bytecode data: 382 modules (0.221 sec), 78 tables (0.007 sec), 460 chunks (0.227 sec)
+mkiv lua stats  > traced context: maxstack: 1158, freed: 6, unreachable: 1152
+mkiv lua stats  > cleaned up reserved nodes: 50 nodes, 446 lists of 445
+mkiv lua stats  > node memory usage: 28 hlist, 12 vlist, 2 rule, 2 disc, 29 glue, 2 kern, 6 penalty, 28 glyph, 888 attribute, 90 glue_spec, 189 attribute_list, 2 temp, 5 dir, 2 local_par, 3 late_lua
+mkiv lua stats  > node list callback tasks: 6 unique task lists, 5 instances (re)created, 1393 calls
+mkiv lua stats  > h-node processing time: 0.037 seconds including kernel
+mkiv lua stats  > used backend: pdf (backend for directly generating pdf output)
+mkiv lua stats  > jobdata time: 0.003 seconds saving, 0.001 seconds loading
+mkiv lua stats  > callbacks: 3735 direct, 4804 indirect, 8539 total
+mkiv lua stats  > randomizer: initialized with value 0.84054565142866
+mkiv lua stats  > loaded tex modules: 2 requested, all found (*-database *-oldbibtex)
+mkiv lua stats  > loaded patterns: en::2, load time: 0.000
+mkiv lua stats  > interactive elements: 6 references, 19 destinations
+mkiv lua stats  > result saved in file: unittest.pdf, compresslevel 3, objectcompresslevel 3
+mkiv lua stats  > loaded fonts: 4 files: latinmodern-math.otf, lmroman10-bold.otf, lmroman10-italic.otf, lmroman10-regular.otf
+mkiv lua stats  > font engine: otf 3.006, afm 1.500, tfm 1.000, 16 instances, 10 shared in backend, 1 common vectors, 9 common hashes, load time 0.250 seconds 
+mkiv lua stats  > graphics processing time: 0.002 seconds including tex, 2 processed images, 1 unique asked, 1 bad names
+mkiv lua stats  > pdf annotations: 6 links (6 unique), 0 special
+mkiv lua stats  > used platform: linux-64, type: unix, binary subtree: texmf-linux-64
+mkiv lua stats  > luatex banner: this is luatex, version beta-0.85.0 (tex live 2016/dev) (rev 5550)
+mkiv lua stats  > control sequences: 48565 of 65536 + 100000
+mkiv lua stats  > lua properties: engine: lua, used memory: 74 MB (ctx: 73 MB), hash type: lua, hash chars: min(64,40), symbol mask: utf (τεχ)
+mkiv lua stats  > runtime: 0.859 seconds, 6 processed pages, 6 shipped pages, 6.985 pages/second
+
+mtx-context     | run 3: luatex --fmt="/opt/context/tex/texmf-cache/luatex-cache/context/5fe67e0bfe781ce0dde776fb1556f32e/formats/luatex/cont-en" --interaction="batchmode" --jobname="unittest" --lua="/opt/context/tex/texmf-cache/luatex-cache/context/5fe67e0bfe781ce0dde776fb1556f32e/formats/luatex/cont-en.lui" --no-parse-first-line --c:batchmode --c:currentrun=3 --c:fulljobname="./unittest.tex" --c:input="./unittest.tex" --c:kindofrun=2 --c:maxnofruns=9 --c:purgeall --c:quiet "cont-yes.mkiv"
+This is LuaTeX, Version beta-0.85.0 (TeX Live 2016/dev) (rev 5550) 
+ system commands enabled.
+
+system          > callbacks > not registering frozen 'find_format_file'
+open source     > 1 > 1 > /opt/context/tex/texmf-context/tex/context/base/cont-yes.mkiv
+system          > 'cont-new.mkiv' loaded
+open source     > 2 > 2 > /opt/context/tex/texmf-context/tex/context/base/cont-new.mkiv
+close source    > 2 > 2 > /opt/context/tex/texmf-context/tex/context/base/cont-new.mkiv
+system          > files > jobname 'unittest', input './unittest', result 'unittest'
+fonts           > latin modern fonts are not preloaded
+languages       > language 'en' is active
+open source     > 2 > 3 > /home/brian/MarkdownContextTests/unittest.tex
+resolvers       > modules > 'oldbibtex' is loaded
+open source     > 3 > 4 > /opt/context/tex/texmf-context/tex/context/base/m-oldbibtex.mkiv
+open source     > 4 > 5 > /opt/context/tex/texmf-context/tex/context/base/bibl-bib.mkiv
+loading         > ConTeXt Bibliography Support / Experimental BibTeX
+resolvers       > lua > loading file '/opt/context/tex/texmf-context/tex/context/base/bibl-bib.lua' succeeded
+publications    > loading formatting style from 'bxml-apa'
+open source     > 5 > 6 > /opt/context/tex/texmf-context/tex/context/base/bxml-apa.mkiv
+close source    > 5 > 6 > /opt/context/tex/texmf-context/tex/context/base/bxml-apa.mkiv
+close source    > 4 > 6 > /opt/context/tex/texmf-context/tex/context/base/bibl-bib.mkiv
+open source     > 4 > 7 > /opt/context/tex/texmf-context/tex/context/base/bibl-tra.mkiv
+loading         > ConTeXt Bibliography Support / BibTeX
+resolvers       > lua > loading file '/opt/context/tex/texmf-context/tex/context/base/bibl-tra.lua' succeeded
+publications    > loading formatting style from 'bibl-apa'
+open source     > 5 > 8 > /opt/context/tex/texmf-context/tex/context/bib/bibl-apa.tex
+close source    > 5 > 8 > /opt/context/tex/texmf-context/tex/context/bib/bibl-apa.tex
+close source    > 4 > 8 > /opt/context/tex/texmf-context/tex/context/base/bibl-tra.mkiv
+close source    > 3 > 8 > /opt/context/tex/texmf-context/tex/context/base/m-oldbibtex.mkiv
+publications    > loading formatting style from 'bibl-apa'
+open source     > 3 > 9 > /opt/context/tex/texmf-context/tex/context/bib/bibl-apa.tex
+close source    > 3 > 9 > /opt/context/tex/texmf-context/tex/context/bib/bibl-apa.tex
+open source     > 3 > 10 > env_unittest.tex
+colors          > 'rgb' color space is supported
+colors          > 'cmyk' color space is supported
+resolvers       > modules > 'database' is loaded
+open source     > 4 > 11 > /opt/context/tex/texmf-context/tex/context/base/m-database.mkiv
+resolvers       > lua > loading file '/opt/context/tex/texmf-context/tex/context/base/m-database.lua' succeeded
+close source    > 4 > 11 > /opt/context/tex/texmf-context/tex/context/base/m-database.mkiv
+fonts           > preloading latin modern fonts (third stage)
+fonts           > 'fallback modern-designsize rm 11pt' is loaded
+system          > jobfiles > using path: /home/ubuntu/ConTeXt/TRAP/
+close source    > 3 > 11 > env_unittest.tex
+structure       > sectioning > chapter @ level 2 : 0.1 -> Sample Academic Workflow
+structure       > sectioning > subject @ level 3 : 0.1.0 -> Abstract
+structure       > sectioning > subject @ level 3 : 0.1.0 -> Keywords
+structure       > sectioning > section @ level 3 : 0.1.1 -> Section 1
+open source     > 3 > 12 > /opt/context/tex/texmf-context/tex/context/sample/knuth.tex
+close source    > 3 > 12 > /opt/context/tex/texmf-context/tex/context/sample/knuth.tex
+structure       > sectioning > subsection @ level 4 : 0.1.1.1 -> Subsection 1.1
+structure       > sectioning > subsection @ level 4 : 0.1.1.2 -> Subsection 1.2
+structure       > sectioning > section @ level 3 : 0.1.2 -> Section 2
+open source     > 3 > 13 > /opt/context/tex/texmf-context/tex/context/sample/knuth.tex
+backend         > xmp > using file '/opt/context/tex/texmf-context/tex/context/base/lpdf-pdx.xml'
+pages           > flushing realpage 1, userpage 1
+close source    > 3 > 13 > /opt/context/tex/texmf-context/tex/context/sample/knuth.tex
+structure       > sectioning > subsection @ level 4 : 0.1.2.1 -> Subsection 2.1
+structure       > sectioning > section @ level 3 : 0.1.3 -> Images
+floatblocks     > '1' placed
+open source     > 3 > 14 > /opt/context/tex/texmf-context/tex/context/sample/knuth.tex
+close source    > 3 > 14 > /opt/context/tex/texmf-context/tex/context/sample/knuth.tex
+floatblocks     > 1 saved
+open source     > 3 > 15 > /opt/context/tex/texmf-context/tex/context/sample/knuth.tex
+pages           > flushing realpage 2, userpage 2
+floatblocks     > 1 moved
+floatblocks     > '2' moved
+close source    > 3 > 15 > /opt/context/tex/texmf-context/tex/context/sample/knuth.tex
+structure       > sectioning > section @ level 3 : 0.1.4 -> Tables
+floatblocks     > '3' placed
+open source     > 3 > 16 > /opt/context/tex/texmf-context/tex/context/sample/knuth.tex
+close source    > 3 > 16 > /opt/context/tex/texmf-context/tex/context/sample/knuth.tex
+pages           > flushing realpage 3, userpage 3
+floatblocks     > '4' placed
+open source     > 3 > 17 > /opt/context/tex/texmf-context/tex/context/sample/knuth.tex
+close source    > 3 > 17 > /opt/context/tex/texmf-context/tex/context/sample/knuth.tex
+structure       > sectioning > section @ level 3 : 0.1.5 -> No heads
+floatblocks     > '5' placed
+open source     > 3 > 18 > /opt/context/tex/texmf-context/tex/context/sample/knuth.tex
+close source    > 3 > 18 > /opt/context/tex/texmf-context/tex/context/sample/knuth.tex
+structure       > sectioning > section @ level 3 : 0.1.6 -> Citations
+publications    > loading database from 'unittest.bbl'
+open source     > 3 > 19 > unittest.bbl
+close source    > 3 > 19 > unittest.bbl
+structure       > sectioning > section @ level 3 : 0.1.7 -> Works Cited
+publications    > placing all entries, use 'text' to be more selective
+pages           > flushing realpage 4, userpage 4
+pages           > flushing realpage 5, userpage 5
+pages           > flushing realpage 6, userpage 6
+close source    > 2 > 19 > /home/brian/MarkdownContextTests/unittest.tex
+close source    > 1 > 19 > /opt/context/tex/texmf-context/tex/context/base/cont-yes.mkiv
+
+mkiv lua stats  > scheme handling time: 0.000 seconds, 1 processed, threshold 86400 seconds, loaded: https:1, reused: none
+mkiv lua stats  > used config file: selfautoparent:/texmf/web2c/texmfcnf.lua
+mkiv lua stats  > used cache path: /opt/context/tex/texmf-cache/luatex-cache/context/5fe67e0bfe781ce0dde776fb1556f32e
+mkiv lua stats  > resource resolver: loadtime 0.008 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 27 found files, scanned paths: <none>
+mkiv lua stats  > stored bytecode data: 382 modules (0.212 sec), 78 tables (0.006 sec), 460 chunks (0.218 sec)
+mkiv lua stats  > traced context: maxstack: 1158, freed: 6, unreachable: 1152
+mkiv lua stats  > cleaned up reserved nodes: 50 nodes, 446 lists of 445
+mkiv lua stats  > node memory usage: 28 hlist, 12 vlist, 2 rule, 2 disc, 29 glue, 2 kern, 6 penalty, 28 glyph, 888 attribute, 90 glue_spec, 189 attribute_list, 2 temp, 5 dir, 2 local_par, 3 late_lua
+mkiv lua stats  > node list callback tasks: 6 unique task lists, 5 instances (re)created, 1393 calls
+mkiv lua stats  > h-node processing time: 0.035 seconds including kernel
+mkiv lua stats  > used backend: pdf (backend for directly generating pdf output)
+mkiv lua stats  > jobdata time: 0.003 seconds saving, 0.001 seconds loading
+mkiv lua stats  > callbacks: 3735 direct, 4804 indirect, 8539 total
+mkiv lua stats  > randomizer: resumed with value 0.84054565142866
+mkiv lua stats  > loaded tex modules: 2 requested, all found (*-database *-oldbibtex)
+mkiv lua stats  > loaded patterns: en::2, load time: 0.000
+mkiv lua stats  > interactive elements: 6 references, 19 destinations
+mkiv lua stats  > result saved in file: unittest.pdf, compresslevel 3, objectcompresslevel 3
+mkiv lua stats  > loaded fonts: 4 files: latinmodern-math.otf, lmroman10-bold.otf, lmroman10-italic.otf, lmroman10-regular.otf
+mkiv lua stats  > font engine: otf 3.006, afm 1.500, tfm 1.000, 16 instances, 10 shared in backend, 1 common vectors, 9 common hashes, load time 0.246 seconds 
+mkiv lua stats  > graphics processing time: 0.002 seconds including tex, 2 processed images, 1 unique asked, 1 bad names
+mkiv lua stats  > pdf annotations: 6 links (6 unique), 0 special
+mkiv lua stats  > used platform: linux-64, type: unix, binary subtree: texmf-linux-64
+mkiv lua stats  > luatex banner: this is luatex, version beta-0.85.0 (tex live 2016/dev) (rev 5550)
+mkiv lua stats  > control sequences: 48565 of 65536 + 100000
+mkiv lua stats  > lua properties: engine: lua, used memory: 77 MB (ctx: 77 MB), hash type: lua, hash chars: min(64,40), symbol mask: utf (τεχ)
+mkiv lua stats  > runtime: 0.839 seconds, 6 processed pages, 6 shipped pages, 7.151 pages/second
+
+mtx-context     | purged files: unittest.log, unittest.aux, unittest.blg, unittest.tuc, unittest.bbl
+system          | total runtime: 3.338 seconds

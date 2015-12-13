@@ -26,8 +26,13 @@ def mycite(key, value, fmt, meta):
 		[[kvs], [contents]] = value
 		#kvs = {key: value for key, value in kvs}
 		
+
+		if "fig:" in kvs['citationId'] or "tab:" in kvs['citationId']:
+			return [context("\in[")]+[context(kvs['citationId'])] + [context(']')]
+		else:
+			return [context("\\cite[")] +[context(kvs['citationId'])] + [context(']')]
 		
-		return [context('\\cite[')] +[context(kvs['citationId'])] + [context(']')]
+			
 
 	# if key == 'Header' and fmt == 'context':
 	# 	#warning(key)
@@ -36,6 +41,8 @@ def mycite(key, value, fmt, meta):
 		
 	# 	if level == 1 and contents == ['references',[],[]]:
 	# 		return RawBlock('context', "\completepublications")
+
+	
 
 
 if __name__ == "__main__":

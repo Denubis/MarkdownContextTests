@@ -21,6 +21,8 @@ Fake Latin, Wibbling, Image, Citation, Unit Testing
 
 \section[section-1]{Section 1}
 
+\input knuth
+
 \subsection[subsection-1.1]{Subsection 1.1}
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -28,7 +30,9 @@ tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
 veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
 commodo consequat.
 
-Next paragraph should start like this. Do indent.
+Next paragraph should start like this. Do not indent.
+
+Can we refer to Figure \in[fig:01] and Table \in[tab:01]?
 
 \subsection[subsection-1.2]{Subsection 1.2}
 
@@ -39,6 +43,8 @@ explicabo.
 
 \section[section-2]{Section 2}
 
+\input knuth
+
 \subsection[subsection-2.1]{Subsection 2.1}
 
 A sentence that needs a note.\footnote{my first footnote! And a
@@ -46,8 +52,203 @@ A sentence that needs a note.\footnote{my first footnote! And a
 
 \section[images]{Images}
 
-\placefigure{This is the
-caption}{\externalfigure[https://www.fedarch.org/wordpress/wp-content/uploads//2014/03/faimsLogoNoBorder1.png]}
+\placefigure[here][fig:01]{This is the crossref}{\externalfigure[https://www.fedarch.org/wordpress/wp-content/uploads//2014/03/faimsLogoNoBorder1.png]}
+
+\input knuth
+
+\placefigure[here][]{This no has crossref}{\externalfigure[https://www.fedarch.org/wordpress/wp-content/uploads//2014/03/faimsLogoNoBorder1.png]}
+
+\input knuth
+
+\section[tables]{Tables}
+
+\setupTABLE[column][1][align={flushright,lohi}]
+
+\setupTABLE[column][2][align={flushleft,lohi}]
+
+\setupTABLE[column][3][align={middle,lohi}]
+
+\setupTABLE[column][4][align={flushleft,lohi}]
+
+\placetable[here][]{Demonstration of simple table syntax.}{
+
+\bTABLE
+
+\setupTABLE[r][1][background=color,backgroundcolor=gray,style={\tfa}]
+
+\bTR
+
+\bTH Right \eTH
+
+\bTH Left \eTH
+
+\bTH Center \eTH
+
+\bTH Default \eTH
+
+\eTR
+
+\bTR
+
+\bTD 12 \eTD
+
+\bTD 12 \eTD
+
+\bTD 12 \eTD
+
+\bTD 12 \eTD
+
+\eTR
+
+\bTR
+
+\bTD 123 \eTD
+
+\bTD 123 \eTD
+
+\bTD 123 \eTD
+
+\bTD 123 \eTD
+
+\eTR
+
+\bTR
+
+\bTD 1 \eTD
+
+\bTD 1 \eTD
+
+\bTD 1 \eTD
+
+\bTD 1 \eTD
+
+\eTR
+
+\eTABLE}
+
+\input knuth
+
+\setupTABLE[column][1][align={flushright,lohi}]
+
+\setupTABLE[column][2][align={flushleft,lohi}]
+
+\setupTABLE[column][3][align={middle,lohi}]
+
+\setupTABLE[column][4][align={flushleft,lohi}]
+
+\placetable[here][tab:01]{Demonstration of simple table syntax.}{
+
+\bTABLE
+
+\setupTABLE[r][1][background=color,backgroundcolor=gray,style={\tfa}]
+
+\bTR
+
+\bTH Right \eTH
+
+\bTH Left \eTH
+
+\bTH Center \eTH
+
+\bTH Default \eTH
+
+\eTR
+
+\bTR
+
+\bTD 12 \eTD
+
+\bTD 12 \eTD
+
+\bTD 12 \eTD
+
+\bTD 12 \eTD
+
+\eTR
+
+\bTR
+
+\bTD 123 \eTD
+
+\bTD 123 \eTD
+
+\bTD 123 \eTD
+
+\bTD 123 \eTD
+
+\eTR
+
+\bTR
+
+\bTD 1 \eTD
+
+\bTD 1 \eTD
+
+\bTD 1 \eTD
+
+\bTD 1 \eTD
+
+\eTR
+
+\eTABLE}
+
+\input knuth
+
+\section[no-heads]{No heads}
+
+\setupTABLE[column][1][align={flushright,lohi}]
+
+\setupTABLE[column][2][align={flushleft,lohi}]
+
+\setupTABLE[column][3][align={middle,lohi}]
+
+\setupTABLE[column][4][align={middle,lohi}]
+
+\placetable[here][]{No headers!}{
+
+\bTABLE
+
+\setupTABLE[r][1][background=color,backgroundcolor=white,style={\tfx}]
+
+\bTR
+
+\bTD 12 \eTD
+
+\bTD 12 \eTD
+
+\bTD 12 \eTD
+
+\bTD 12 \eTD
+
+\eTR
+
+\bTR
+
+\bTD 123 \eTD
+
+\bTD 123 \eTD
+
+\bTD 123 \eTD
+
+\bTD 123 \eTD
+
+\eTR
+
+\bTR
+
+\bTD 1 \eTD
+
+\bTD 1 \eTD
+
+\bTD 1 \eTD
+
+\bTD 1 \eTD
+
+\eTR
+
+\eTABLE}
+
+\input knuth
 
 \section[citations]{Citations}
 

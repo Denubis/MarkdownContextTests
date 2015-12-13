@@ -1,4 +1,5 @@
 #!/bin/bash
+set -euo pipefail
 
 if [ -z $1 ]; then
 	echo "./convert.sh foo.md"
@@ -12,8 +13,8 @@ filename=$(basename "$fullfile")
 extension="${filename##*.}"
 filename="${filename%.*}"
 
-pandoc --smart --normalize -f markdown -t native --filter ./contextBibliography.py -o $filename.nat $1
-pandoc --natbib --template ./template.unitTest --smart --normalize -f markdown -t context --filter ./contextBibliography.py  -o $filename.tex $1
+# pandoc --smart --normalize -f markdown -t native --filter ./contextBibliography.py -o $filename.nat $1
+$HOME/.cabal/bin/pandoc --natbib --template ./template.unitTest --smart --normalize -f markdown -t context --filter ./contextBibliography.py --filter ./contextCrossref.py  -o $filename.tex $1
 
 # we will try to guess the platform first
 # (needs to be kept in sync with first-setup.sh and mtxrun)
@@ -79,9 +80,6 @@ fi
 
 if [ "$TEXROOT" != "" ]; then
 	# for Alan Braslau's server :)
-	if [ "x$PS1" != "x" ] ; then
-		echo "Setting \"$TEXROOT\" as ConTeXt root."
-	fi
 
 # ConTeXt binaries have to be added to PATH
 TEXMFOS=$TEXROOT/texmf-$platform
@@ -99,4 +97,4 @@ fi
 
 
 
-context --batchmode -quiet unittest.tex
+context --purgeall --batchmode -quiet unittest.tex > contextRunLog.log

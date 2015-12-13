@@ -8,6 +8,6 @@
 ,Header 2 ("subsection-2.1",[],[]) [Str "Subsection",Space,Str "2.1"]
 ,Para [Str "A",Space,Str "sentence",Space,Str "that",Space,Str "needs",Space,Str "a",Space,Str "note.",Note [Para [Str "my",Space,Str "first",Space,Str "footnote!",Space,Str "And",Space,Str "a",Space,Link [Str "link"] ("https://www.eff.org/",""),Str "."]]]
 ,Header 1 ("images",[],[]) [Str "Images"]
-,Para [Image [Str "This",Space,Str "is",Space,Str "the",Space,Str "caption"] ("https://www.fedarch.org/wordpress/wp-content/uploads//2014/03/faimsLogoNoBorder1.png","fig:")]
+,Para [Image [Str "This",Space,Str "is",Space,Str "the",Space,Str "caption"] ("https://www.fedarch.org/wordpress/wp-content/uploads//2014/03/faimsLogoNoBorder1.png",""),Str "{fig01}"]
 ,Header 1 ("citations",[],[]) [Str "Citations"]
 ,Para [Str "Does",Space,Str "this",Space,Str "fucking",Space,Str "work?",Space,Cite [Citation {citationId = "ballsun2010asking", citationPrefix = [], citationSuffix = [], citationMode = NormalCitation, citationNoteNum = 0, citationHash = 0}] [Str "[@ballsun2010asking]"]]]
