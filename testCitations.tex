@@ -1,0 +1,10 @@
+\setupbibtex[database={citations},sort=author]
+\setuppublications[alternative=apa]
+
+\environment env_unittest
+  
+\starttext 
+Does this fucking work? \cite[ballsun2010asking]
+
+\completepublications[criterium=all]
+\stoptext 

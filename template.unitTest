@@ -1,0 +1,41 @@
+
+$if(bibliography)$
+\setupbibtex[database={$bibliography$},sort=author]
+\setuppublications[alternative=apa]
+\environment env_unittest
+$endif$
+\startcomponent $title.crossref$
+
+
+\startchapter[title={$title.long$}, marking={$title.short$}, reference={$title.crossref$}]
+
+
+\startlines
+$for(author)$
+$author.name$, $author.affiliation$, {\it $author.email$}
+$endfor$
+\stoplines
+
+$if(abstract)$
+\subject{Abstract}
+$abstract$
+$endif$
+
+$if(keywords)$
+\subject{Keywords}
+$keywords$
+$endif$
+
+$body$
+
+$if(bibliography)$
+\section{Works Cited}
+\placepublications[criterium=all]
+$endif$
+
+$for(include-after)$
+$include-after$
+
+$endfor$
+\stopchapter
+\stopcomponent

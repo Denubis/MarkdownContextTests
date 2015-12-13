@@ -1,0 +1,47 @@
+--- 
+title: 
+  long: Sample Academic Workflow
+  short: Sample Workflow
+  crossref: SAW
+author: 
+- name: Brian Ballsun-Stanton
+  affiliation: Macquarie University
+  email: brian@faims.edu.au
+- name: \@elotroalex
+  affiliation: Twitter
+  email: twitter
+date: 12 December 2015
+abstract: Suspendisse gravida faucibus mollis. 
+keywords: Fake Latin, Wibbling, Image, Citation, Unit Testing
+bibliography: citations
+---
+
+
+# Section 1  
+
+## Subsection 1.1  
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+Next paragraph should start like this. Do not indent.
+
+## Subsection 1.2
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque  ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+
+# Section 2
+
+## Subsection 2.1
+A sentence that needs a note.[^1] 
+
+# Images
+
+![This is the caption](https://www.fedarch.org/wordpress/wp-content/uploads//2014/03/faimsLogoNoBorder1.png)
+
+
+[^1]: my first footnote! And a [link](https://www.eff.org/).
+
+# Citations
+
+Does this fucking work? [@ballsun2010asking]
+
+
+

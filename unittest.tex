@@ -1,0 +1,60 @@
+
+\setupbibtex[database={citations},sort=author]
+\setuppublications[alternative=apa]
+\environment env_unittest
+\startcomponent SAW
+
+
+\startchapter[title={Sample Academic Workflow}, marking={Sample Workflow}, reference={SAW}]
+
+
+\startlines
+Brian Ballsun-Stanton, Macquarie University, {\it brian@faims.edu.au}
+@elotroalex, Twitter, {\it twitter}
+\stoplines
+
+\subject{Abstract}
+Suspendisse gravida faucibus mollis.
+
+\subject{Keywords}
+Fake Latin, Wibbling, Image, Citation, Unit Testing
+
+\section[section-1]{Section 1}
+
+\subsection[subsection-1.1]{Subsection 1.1}
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+commodo consequat.
+
+Next paragraph should start like this. Do indent.
+
+\subsection[subsection-1.2]{Subsection 1.2}
+
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
+illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+explicabo.
+
+\section[section-2]{Section 2}
+
+\subsection[subsection-2.1]{Subsection 2.1}
+
+A sentence that needs a note.\footnote{my first footnote! And a
+  \useURL[url1][https://www.eff.org/][][link]\from[url1].}
+
+\section[images]{Images}
+
+\placefigure{This is the
+caption}{\externalfigure[https://www.fedarch.org/wordpress/wp-content/uploads//2014/03/faimsLogoNoBorder1.png]}
+
+\section[citations]{Citations}
+
+Does this fucking work? \cite[ballsun2010asking]
+
+\section{Works Cited}
+\placepublications[criterium=all]
+
+\stopchapter
+\stopcomponent

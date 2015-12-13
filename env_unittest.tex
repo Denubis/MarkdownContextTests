@@ -1,0 +1,147 @@
+\startenvironment env_trap
+
+\enableregime[utf-8]  
+\setupcolors[state=start]
+\setupinteraction[state=start, color=middleblue]
+
+\usemodule[database]
+% Enable hyperlinks
+
+\setuppapersize [letter][letter]
+\setuplayout    [width=middle,  backspace=1.5in, cutspace=1.5in,
+                 height=middle, topspace=0.75in, bottomspace=0.75in]
+
+\setupbodyfont[11pt]
+
+\setupwhitespace[none]
+
+\setuphead[chapter]      [style=\tfd]
+\setuphead[section]      [style=\tfc]
+\setuphead[subsection]   [style=\tfb]
+\setuphead[subsubsection][style=\bf]
+
+\setuphead[section, subsection, subsubsection][incrementnumber=yes,number=yes,align={flushleft, nothyphenated}]
+
+\setuphead[chapter][incrementnumber=yes,number=no,align={flushleft, nothyphenated}]
+
+
+\definedescription
+  [description]
+  [headstyle=bold, style=normal, location=hanging, width=broad, margin=1cm]
+
+\setupitemize[autointro]    % prevent orphan list intro
+\setupitemize[indentnext=no]
+
+\setupfloat[figure][default={here,number}]
+\setupfloat[table][default={here,number}]
+
+\setupthinrules[width=15em] % width of horizontal rules
+
+\setupdelimitedtext
+  [blockquote]
+  [before={\blank[medium]},
+   after={\blank[medium]},
+   indentnext=no,
+  ]
+
+\setupindenting[yes, big]
+\setupindenting[first]
+
+\def\hangover{\hangafter=1\hangindent=0.5in}
+
+\definestartstop [workscited] [
+  before={%
+   \indenting[never]
+   \bgroup\appendtoks\hangover\to\everypar
+  },
+  after={\egroup
+    \indenting[yes]},
+]
+\usepath[{/home/ubuntu/ConTeXt/TRAP/}]
+\setupexternalfigures[directory={/home/ubuntu/ConTeXt/img/,/home/ubuntu/gdrive/TRAP/TRAP Final Report/06 Kaz Topo Geography/06_Figures/,/home/ubuntu/gdrive/TRAP/TRAP Final Report/08 Geoarchaeology/08_Figures/, /home/ubuntu/gdrive/TRAP/TRAP Final Report/09 Sobotkova KAZ Survey Summary/09_Figures/, /home/ubuntu/gdrive/TRAP/TRAP Final Report/20 PrivatBakardzhiev - Boyanovo/20_Figures/}]
+
+\setupcaption[table][location=top]
+\setupcaptions[style={\tfx}, width=.9\textwidth,align=middle]
+
+% ToC
+% level=4, \subsubsubsections are not listed in ToC
+% alternative=c, space to the page number is filled with dots
+\setupcombinedlist[content][list={chapter,section,subsection,subject}]
+
+%\setuplist[chapter][width=5mm, style=bold]
+\setuplist[section][margin=10mm]
+\setuplist[subsection][margin=20mm]
+
+\setuphead[chapter][prefix=+]
+
+\definecolor[highlight][yellow]
+\defineframed
+    [important]
+    [location=low, frame=off, background=color, backgroundcolor=highlight]
+
+\definefontfeature
+  [default]
+  [default]
+  [protrusion=quality,expansion=quality]
+
+
+\usetypescript[modern-base]
+\setupbodyfont[reset,modern]
+
+
+\setupalign[hz,hanging]
+
+
+
+\defineseparatedlist[CSV]
+  [separator={,},
+   quotechar={"},
+   left=\bTD,right=\eTD,
+   first=\bTR,last=\eTR,
+   before=\bTABLE,after=\eTABLE]
+   
+
+\setupTABLE[c][each][align=flushleft,style={\tfx}]
+\setupTABLE[r][1][background=color,backgroundcolor=gray,style={\tfa}]
+
+\setuppagenumbering[alternative=doublesided]
+
+\setupheadertexts[]
+\setupheadertexts[\setups{text a}][][][\setups{text b}]
+
+\startsetups[text a]
+  \rlap{\pagenumber} 
+  \hfill
+  \llap{\getmarking[chapter]}
+\stopsetups
+
+\startsetups[text b]
+  \rlap{\getmarking[section]}
+  
+  \hfill
+  \llap{\pagenumber}
+\stopsetups
+
+\unprotect
+\def\citet{\dosingleempty\doCiteT}
+\def\doCiteT[#1]#2{%
+  \iffirstargument
+    \cite[alternative=authoryear,extras={, #1}][#2]%
+  \else
+    \cite[alternative=authoryear][#2]%
+  \fi
+}
+
+\def\citep{\dosingleempty\doCiteP}
+\def\doCiteP[#1]#2{%
+  \iffirstargument
+    \cite[alternative=authoryears,extras={, #1}][#2]%
+  \else
+    \cite[alternative=authoryears][#2]%
+  \fi
+}
+
+\define[1]\citeyear{\cite[alternative=year,left={},right={}][#1]}
+\define[1]\citeauthor{\cite[alternative=author,left={},right={}][#1]}
+\protect
+\stopenvironment
