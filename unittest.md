@@ -7,9 +7,9 @@ author:
 - name: Brian Ballsun-Stanton
   affiliation: Macquarie University
   email: brian@faims.edu.au
-- name: \@elotroalex
+- name: Alex Gil
   affiliation: Twitter
-  email: twitter
+  email: \@elotroalex
 date: 12 December 2015
 abstract: Suspendisse gravida faucibus mollis. 
 keywords: Fake Latin, Wibbling, Image, Citation, Unit Testing
