@@ -86,8 +86,11 @@ Table: No headers!
 
 # Citations
 
-Does this fucking work? [@ballsun2010asking]
+Does this work? [@ballsun2010asking]
 
+\input knuth
+
+Does this also work? [@ballsun2010asking]
 
 
 [^1]: my first footnote! And a [link](https://www.eff.org/).
